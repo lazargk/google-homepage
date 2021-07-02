@@ -17,6 +17,9 @@ const Navbar = () => {
       <RightLinks>
         <NavLinks to="/gmail">Gmail</NavLinks>
         <NavLinks to="/images">Images</NavLinks>
+        <NavLinks>
+            <img src="../img/dots-menu.svg" alt="logo-menu"/>
+        </NavLinks>
       </RightLinks>
     </Nav>
   );
