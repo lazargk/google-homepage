@@ -5,12 +5,13 @@ import About from "./pages/About";
 import Store from "./pages/Store";
 import Gmail from "./pages/Gmail";
 import Images from "./pages/Images";
-
+import {GlobalStyle} from './globalStyles'
 
 
 function App() {
   return (
     <>
+      <GlobalStyle />
       <Navbar />
       <Switch>
         <Route path="/" exact component={Home} />
