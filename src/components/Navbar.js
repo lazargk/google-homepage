@@ -35,7 +35,8 @@ const NavLinks = styled(Link)`
   svg {
     height: 24px;
     width: 24px;
-    padding-right: 20px;
+    /* padding-right: 20px; */
+    margin-right: 10px;
   }
 `;
 
